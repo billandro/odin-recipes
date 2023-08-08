@@ -1,0 +1,90 @@
+@import url('https://fonts.cdnfonts.com/css/elegant-2');
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.name {
+    font-family: 'ELEGANT', sans-serif;
+    Display: flex;
+    font-size: 25px;
+    justify-content: center;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo > img {
+    display: flex;
+    width: auto;
+    height: 125px;
+}
+
+.pictures {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+
+.oats,
+.toasted-eggs,
+.pancakes {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    flex: 1;
+    width: 210px;
+    height: 250px;
+    transition: 100ms;
+}
+
+.titles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.toasted-eggs-title {
+    font-family: 'ELEGANT', sans-serif;
+    display: flex;
+    margin-right: 75px;
+}
+
+.oats-title {
+    font-family: 'ELEGANT', sans-serif;
+    margin-left: 120px;
+}
+
+.pancakes-title {
+    font-family: 'ELEGANT', sans-serif;
+    margin-left: 60px; 
+}
+
+img:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+    cursor: pointer;
+}
